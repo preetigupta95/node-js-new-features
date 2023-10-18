@@ -1,0 +1,15 @@
+1. node --watch (experimental)
+2. experimental permission (experimental)
+node --experimental-permission --allow-fs-read=\* index.js
+3. node:test (stable becz came in node 18)
+4. single executable applications (experimental)
+5. V11 (some features : arrayBuffer, sharedArrayBuffer,recursiveRead)
+6. fetch API
+7. web stream APIs ( readable stream)
+8. ESM Module
+a) npm install ts-node --save-dev
+b) node --experimental-specifier-resolution=node --loader ts-node/esm esmHook.js
+c) node esmHook.js 
+8. blob 
+9. broadcastchannel
+10. urlParser
